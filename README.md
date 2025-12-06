@@ -1,7 +1,7 @@
 # Half-Adder-and-Half-Subtractor-in-Verilog-
 Verilog Code and Testbench for implementation of Half Adder and Half Subtractor using Gate, Dataflow, Behavioral Level Modelling.
 
-# Truth Table for Half Adder 
+Truth Table for Half Adder 
 
 | A | B | Sum | Carry |
 | - | - | --- | ----- |
@@ -10,7 +10,7 @@ Verilog Code and Testbench for implementation of Half Adder and Half Subtractor 
 | 1 | 0 | 1   | 0     |
 | 1 | 1 | 0   | 1     |
 
-# Truth Table for Half Subtractor 
+Truth Table for Half Subtractor 
 
 | A | B | Difference | Borrow |
 | - | - | ---------  | ------ |
@@ -19,5 +19,5 @@ Verilog Code and Testbench for implementation of Half Adder and Half Subtractor 
 | 1 | 0 | 1          | 0      |
 | 1 | 1 | 0          | 0      |
 
-# Tool Used
+Tool Used
 - Vivado
