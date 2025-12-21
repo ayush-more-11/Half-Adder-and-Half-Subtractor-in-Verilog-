@@ -1,1 +1,17 @@
 
+module half_subtractor_tb();
+
+reg A,B;
+wire Diff, Borrow;
+
+half_subtractor uut(.Diff(Diff), .Borrow(Borrow), .A(A), .B(B));
+
+ initial begin 
+ $monitor("A=%b, B=%b, Diff=%b, Borrow=%Borrow", A, B, Diff, Borrow);
+ A = 0; B = 0; #10;
+ A = 0; B = 1; #10;
+ A = 1; B = 0; #10;
+ A = 1; B = 1; #10;
+ $stop;
+ end
+endmodule
